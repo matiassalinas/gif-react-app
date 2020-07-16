@@ -1,0 +1,44 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  padding: 60px;
+  background-color: #22263c;
+  color: white; 
+}
+
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 10px;
+  color: grey;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-category{
+  text-align: center;
+}
+
+.card {
+  border: 1px solid white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card img {
+  max-width: 300px;
+  margin: auto;
+  display: block;
+}
+
+.card p {
+  text-align: center;
+}
